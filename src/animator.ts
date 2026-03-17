@@ -94,7 +94,7 @@ async function runAnimation(
 
   await sleep(1000);
 
-  window.location.href = `https://chatgpt.com/?q=${encodeURIComponent(query)}`;
+  window.location.href = `https://chatgpt.com/?prompt=${encodeURIComponent(query)}`;
 }
 
 export function initAnimator(query: string): void {

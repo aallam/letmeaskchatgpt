@@ -126,37 +126,13 @@ export function initAnimator(query: string): void {
             <line x1="12" y1="22.08" x2="12" y2="12"></line>
           </svg>
         </button>
-        <div class="animator-sidebar-spacer"></div>
-        <div class="animator-sidebar-avatar">HA</div>
       </div>
       <div class="animator-body">
         <div class="animator-top-bar">
-          <div class="animator-model-selector">
-            <span class="animator-model-label">ChatGPT 5.4 Thinking</span>
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16">
-              <polyline points="6 9 12 15 18 9"></polyline>
-            </svg>
-          </div>
-          <div class="animator-top-right">
-            <button class="animator-top-btn" aria-label="Share">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20">
-                <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                <circle cx="8.5" cy="7" r="4"></circle>
-                <line x1="20" y1="8" x2="20" y2="14"></line>
-                <line x1="23" y1="11" x2="17" y2="11"></line>
-              </svg>
-            </button>
-            <button class="animator-top-btn" aria-label="Menu">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20">
-                <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path>
-                <polyline points="10 17 15 12 10 7"></polyline>
-                <line x1="15" y1="12" x2="3" y2="12"></line>
-              </svg>
-            </button>
-          </div>
+          <span class="animator-top-label">ChatGPT</span>
         </div>
         <div class="animator-main">
-          <div class="animator-greeting">Where should we begin?</div>
+          <div class="animator-greeting">Let me ask ChatGPT for you</div>
           <div class="animator-input-box">
             <textarea
               class="animator-textarea"

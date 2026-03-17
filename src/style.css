@@ -280,23 +280,6 @@ body {
   height: 24px;
 }
 
-.animator-sidebar-spacer {
-  flex: 1;
-}
-
-.animator-sidebar-avatar {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background: #c2702a;
-  color: white;
-  font-size: 0.65rem;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 8px;
-}
 
 /* Body (right of sidebar) */
 .animator-body {
@@ -306,54 +289,17 @@ body {
   min-width: 0;
 }
 
+
 /* Top bar */
 .animator-top-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding: 12px 16px;
   flex-shrink: 0;
 }
 
-.animator-model-selector {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  cursor: default;
-}
-
-.animator-model-label {
-  font-size: 1rem;
+.animator-top-label {
+  font-size: 1.2rem;
   font-weight: 600;
   color: var(--text);
-}
-
-.animator-model-selector svg {
-  color: var(--text-secondary);
-}
-
-.animator-top-right {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
-
-.animator-top-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  background: transparent;
-  border: none;
-  border-radius: 8px;
-  color: var(--icon-color);
-  cursor: default;
-}
-
-.animator-top-btn svg {
-  width: 20px;
-  height: 20px;
 }
 
 /* Main content area */
@@ -364,7 +310,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 24px;
-  gap: 24px;
+  gap: 40px;
 }
 
 .animator-greeting {

@@ -436,12 +436,12 @@ body {
   justify-content: center;
   width: 32px;
   height: 32px;
-  background: var(--accent);
-  color: white;
+  background: transparent;
+  color: var(--icon-color);
   border: none;
   border-radius: 50%;
   cursor: default;
-  transition: background var(--transition), transform 100ms ease;
+  transition: background var(--transition), color var(--transition), transform 100ms ease;
 }
 
 .animator-send.active {

@@ -122,6 +122,7 @@ body {
   border: 1.5px solid var(--border);
   border-radius: var(--radius);
   resize: vertical;
+  max-height: 40vh;
   transition: border-color var(--transition), box-shadow var(--transition);
   animation: fadeUp 600ms ease 200ms both;
 }
@@ -237,6 +238,27 @@ body {
 .creator-copy.copied {
   color: #2D8659;
   background: rgba(45, 134, 89, 0.1);
+}
+
+.creator-crosslink {
+  position: fixed;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 0.8125rem;
+  color: var(--text-tertiary);
+  animation: fadeUp 600ms ease 500ms both;
+}
+
+.creator-crosslink a {
+  color: var(--text-secondary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color var(--transition);
+}
+
+.creator-crosslink a:hover {
+  color: var(--accent);
 }
 
 /* ========== Animator Screen ========== */

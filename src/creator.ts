@@ -20,6 +20,7 @@ export function initCreator(): void {
           </div>
         </div>
       </div>
+      <p class="creator-crosslink">Looking for the <a href="https://letmeaskclaude.aallam.com" target="_blank" rel="noopener">Claude version</a>?</p>
     </div>
   `;
 
